@@ -1,3 +1,43 @@
 #home {
-  background-color: gainsboro;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-image: url("../../static//bg.jpg");
+  .content {
+    width: 100%;
+    margin: 8% 0;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 5em;
+    h2 {
+      -webkit-margin-before: 0;
+      -webkit-margin-after: 0;
+    }
+    h6 {
+      -webkit-margin-before: 0;
+      -webkit-margin-after: 0;
+    }
+    .btn {
+      display: inline-block;
+      width: 180px;
+      height: 60px;
+      margin: 10px;
+      background-color: rgba($color: #ffffff, $alpha: 0.6);
+      border: 0;
+      border-radius: 5px;
+      font-size: 22px;
+      text-align: center;
+      line-height: 60px;
+      color: rgba($color: #000000, $alpha: 0.8);
+      cursor: pointer;
+      user-select: none;
+      transition: 0.5s;
+      &:hover {
+        background-color: rgba($color: #ffffff, $alpha: 0.9);
+      }
+      &:active {
+        background-color: #ffffff;
+      }
+    }
+  }
 }
